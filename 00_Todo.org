@@ -1,0 +1,22 @@
+#+TITLE: Idears and thoughts
+* Ground Idear: https://onlinelibrary.wiley.com/doi/epdf/10.1197/j.aem.2006.05.009
+* YouTube Video: https://www.youtube.com/watch?v=uClq978oohY
+*
+* IDEAR meassure the flow in each tube to improve safety
+* Sensor idears https://gitlab.com/TrevorSmale/OSV-OpenLung/-/blob/master/electronics/Sensors.md
+** HAFUHM0200L4AXT https://sensing.honeywell.com/honeywell-sensing-zephyr-digital-airflow-10-slpm-300-slpm-datasheet-008268-5-en.pdf
+** SFM3000 https://docs.rs-online.com/914a/0900766b8151cd01.pdf
+** TSI 840523 https://tsi.com/products/flow-meters,-flow-sensors,-and-flow-analyzers/flow-sensors/oem-mass-flow-sensor-840523/
+*
+* The Adapters neede could be 3D-Printed (pretty much by anyone with a "normal" 3D-printerd
+*
+* The sensors support simple interfaces I²C and could be connected to a Micro controller, which is than connected to a piezo buzzer or "normal" led
+* 
+* I Could provide some basic arduino code, as there are a lot of people who can work with arduino and its a broadly available µC in all parts of the world
+*
+* More Resources:
+** I²C Omfps for HAFUHM0200L4AXT https://sensing.honeywell.com/index.php/ci_id/45841/la_id/1/document/1/re_id/0
+** Information for using I²C with Arduino https://tronixstuff.com/2010/10/20/tutorial-arduino-and-the-i2c-bus/
+** Arduino Wire (I²C) Library https://www.arduino.cc/en/Reference/Wire
+** Arduino Uno Pinout https://www.circuito.io/blog/arduino-uno-pinout/
+** Project on DevBoard: https://devpost.com/software/06_medizingerateherstellung_make-ventilators-not-cars
