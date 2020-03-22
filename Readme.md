@@ -1,17 +1,31 @@
 # Adding airflow controll to single ventilator multiple patient setup
 ## !!!Needs testing!!!
-## TODO before testing:
+## TODO
 TODO Basic Programming
-
-TODO Testprinting Connectors
 
 TODO Testing
 
+TODO ADDON Display meassured Values on Display/7 Segment?
+
+TODO ADDON Could use pressure sensors if used in GO2Vent Setup.
+
+Further informations inside the 00_Todo.org file
+
 ## Abstract
-This is a project to supply some additional options and hopefully safety to the idear of hooking more than one person up to a ventilator in crisis situations.
-The Idear behind this idear: [link to Paper](https://onlinelibrary.wiley.com/doi/epdf/10.1197/j.aem.2006.05.009) - [link to YouTube](https://www.youtube.com/watch?v=uClq978oohY)  
+This is a project to supply some additional options and hopefully safety to the idear of hooking more than one person up to a ventilator in crisis situations. It Can also help in other DIY ventilator projects to add some additinal safety.
+
+**The 4 Patient 1 Ventilator** Idear: [link to Paper](https://onlinelibrary.wiley.com/doi/epdf/10.1197/j.aem.2006.05.009) - [link to YouTube](https://www.youtube.com/watch?v=uClq978oohY)  
+
+A Simple one person ventilator with could also benefit from additional measurement of the Airflow **Vortran GO2Vent**: [link to Website](https://www.vortran.com/go2vent) 
+
 The addition is a low-cost, easy to understand, build and use system to monitor that all patients get enough air.
 This is done using flow sensors inside the Adapter construction.
+
+This Project is Part of the #WirVSVirusHackathon 
+![#wirVSVirusHackathon Logo](pictures/Logo_Projekt_01.png "Logo")
+
+
+![Overview](pictures/overview.png "overview")
 
 ## preparation 
 
@@ -49,14 +63,19 @@ Print all with 0.4mm nossle and extrusion width set to 0.4mm or 0.39mm if that w
 This Software is **UNTESTED** 
 
 ## Assembling
-HAFUHM0200L4AXT Version: ![electronics/HAFScematic.png](electronics/HAFScematic.png "electronics/HAFScematic.png")
+### HAFUHM0200L4AXT Version: 
+![electronics/HAFScematic.png](electronics/HAFScematic.png "electronics/HAFScematic.png")
 Link to Changeble Source: [TinkerCad - Version: HAFUHM0200L4AXT](https://www.tinkercad.com/things/ix4kOxAtABl-hafscematic/editel?sharecode=EwvW72o5Fr11amaMbfWzOQjrWkyNToyT3YVxdhOI21M=)  
 
-SFM3000 Version: ![electronics/SFMScematic.png](electronics/SFMScematic.png "electronics/SFMScematic.png")
+### SFM3000 Version:
+![electronics/SFMScematic.png](electronics/SFMScematic.png "electronics/SFMScematic.png")
 Link to Changeble Source: [TinkerCad - Version: SFM3000](https://www.tinkercad.com/things/1H1ZNrGPdKH-sfm3000scematic/editel?sharecode=2mnnRzKcG7YKSY-Uylg2WfmKUnSIyuF0voTbONE4A2A=)  
 
-TSI 840523 Version: ![electronics/TSIScematic.png](electronics/TSIScematic.png "electronics/TSIScematic.png")
+### TSI 840523 Version: 
+![electronics/TSIScematic.png](electronics/TSIScematic.png "electronics/TSIScematic.png")
 Link to Changeble Source: [TinkerCad - Version: TSI840523](https://www.tinkercad.com/things/jGp9jx15Z1a-copy-of-hafscematic/editel?tenant=circuits?sharecode=YZ4bZ7YgZwk-vGXiFbsnyXOgjhkVYRNfvazvrGywiu0=)  
+
+
 
 
 ## working on this project
@@ -66,4 +85,4 @@ Furthermore they are all crated using free software.
 * Electrical Data available in TinkerCAD (not Open Source, like KiCAD but probably easier to understand for everyone)
 * Programming done using the Arduino IDE
 
-This Project is part of the #WirVSVirusHackaton and therefore done in a rush.
+This Project is part of the #WirVSVirusHackaton and therefore done in a rush. Be Carefull, test everything before using, only use in crisis situation. Avoid thinks like that if possible.

@@ -15,8 +15,11 @@
 * I Could provide some basic arduino code, as there are a lot of people who can work with arduino and its a broadly available µC in all parts of the world
 *
 * More Resources:
-** I²C Omfps for HAFUHM0200L4AXT https://sensing.honeywell.com/index.php/ci_id/45841/la_id/1/document/1/re_id/0
+** I²C Data for HAFUHM0200L4AXT https://sensing.honeywell.com/index.php/ci_id/45841/la_id/1/document/1/re_id/0
 ** Information for using I²C with Arduino https://tronixstuff.com/2010/10/20/tutorial-arduino-and-the-i2c-bus/
 ** Arduino Wire (I²C) Library https://www.arduino.cc/en/Reference/Wire
 ** Arduino Uno Pinout https://www.circuito.io/blog/arduino-uno-pinout/
-** Project on DevBoard: https://devpost.com/software/06_medizingerateherstellung_make-ventilators-not-cars
+** Project on DevBoard: https://devpost.com/software/can-one-ventilator-save-4-lives
+** Vortran Go2Vent: https://www.vortran.com/go2vent
+** Requirements for DIY Ventilators https://openmedical.earth/en/post/2020-03-20-covid-19-response-searching-for-emerging-market-ventilation-systems/
+** Further Research on the 4 Patients one Ventilator setup: http://rc.rcjournal.com/content/57/3/399/tab-pdf
